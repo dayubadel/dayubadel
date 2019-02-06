@@ -1,0 +1,127 @@
+
+#wrap { margin:0 auto 0 auto;
+        width:500px; text-align:left;        
+        }
+#contactForm {
+	width: 500px;
+        border: 1px solid #f4fFfF;
+        padding: 15px 15px 15px 15px;
+        background-color: #f4f7f8;
+}
+#contactForm * {
+	font-family: sans-serif;
+	display: block;
+	box-sizing: border-box;
+ 
+}
+#contactForm label {
+	color: #333;
+	cursor: default;
+	margin: 15px 0 3px 0;
+}
+#contactForm input[type="text"], #contactForm input[type="email"], #contactForm textarea {
+	padding: 8px;
+	border: 1px solid #CCC;
+	color: #555;
+	font-size: 1em;
+	width: 100%;
+	overflow: hidden;
+	resize: none;
+	border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+#contactForm input[type="text"]:focus, #contactForm input[type="email"]:focus, #contactForm textarea:focus {
+	outline: none;
+	box-shadow: 0px 0px 5px #007DD7;
+	-o-box-shadow: 0px 0px 5px #007DD7;
+	-ms-box-shadow: 0px 0px 5px #007DD7;
+	-moz-box-shadow: 0px 0px 5px #007DD7;
+}
+#contactForm .caracteres, #contactForm label[for="descripcion"] {
+	display: inline-block;
+}
+#contactForm .caracteres {
+	color: green;
+}
+#contactForm #comprueba {
+	margin: 10px 0;
+	float: left;
+}
+#contactForm #comprueba p {
+	display: inline-block;
+	color: #333;
+	margin: 0;
+}
+#contactForm #comprueba #n1, #contactForm #comprueba #n2 {
+	display: inline-block;
+	width: 20px !important;
+	border: none !important;
+	padding: 0 !important;
+	margin: 0;
+	text-align: center;
+}
+#contactForm #comprueba #n1:focus, #contactForm #comprueba #n2:focus {
+	box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#contactForm #comprueba #res {
+	display: inline-block;
+	width: 25px;
+	padding: 2px;
+}
+#contactForm #comprueba #res:focus {
+	box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#contactForm #enviar {
+	border: 1px solid #0169A9;
+	cursor: pointer;
+	float: right;
+	background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-o-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-ms-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-moz-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	color: #FFF;
+	font-size: 1em;
+	margin: 10px 0 10px 15px;
+	padding: 3px 9px;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+#contactForm #enviar:hover {
+	background: linear-gradient(#0275BB,#008DE4,#08A1FF);
+	-o-background: linear-gradient(#0275BB,#008DE4,#08A1FF);
+	-ms-background: linear-gradient(#0275BB,#008DE4,#08A1FF);
+	-moz-background: linear-gradient(#0275BB,#008DE4,#08A1FF);
+}
+#contactForm #enviar[disabled] {
+	background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-o-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-ms-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	-moz-background: linear-gradient(#08A1FF,#008DE4,#0275BB);
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	cursor: default;
+}
+#contactForm #respuesta {
+	display: none;
+	padding: 6px;
+	background: #008DE4;
+	color: #FFF;
+	text-align: center;
+	margin: 10px 0;
+	border: 1px solid #0076BE;
+	cursor: pointer;
+	border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
