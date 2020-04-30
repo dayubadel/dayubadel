@@ -605,6 +605,15 @@
 	text-transform: uppercase;
 }
 
+.titulo-lista ul li  strong
+{
+	display: inline-block;
+	font-size: 13px;
+	color: #171717;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
 @media (max-width: 560px) {
 	.info-list ul li {
 		display: block;
